@@ -1,9 +1,10 @@
-package springboot.demo.IOCandDependencyInjection.myApp.demoComponentScanning;
+package springboot.demo.myApp.IOCandDependencyInjection.demoComponentScanning;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springboot.demo.IOCandDependencyInjection.componentScanning.NewCoach;
+import springboot.demo.componentScanning.NewCoach;
+
 
 @RestController
 public class DemoComponentScanning {

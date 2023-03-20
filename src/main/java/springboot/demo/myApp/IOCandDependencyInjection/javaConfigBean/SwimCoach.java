@@ -1,6 +1,6 @@
-package springboot.demo.IOCandDependencyInjection.myApp.javaConfigBean;
+package springboot.demo.myApp.IOCandDependencyInjection.javaConfigBean;
 
-import springboot.demo.IOCandDependencyInjection.myApp.components.Coach;
+import springboot.demo.myApp.IOCandDependencyInjection.components.Coach;
 
 //don't add @Component
 public class SwimCoach implements Coach {

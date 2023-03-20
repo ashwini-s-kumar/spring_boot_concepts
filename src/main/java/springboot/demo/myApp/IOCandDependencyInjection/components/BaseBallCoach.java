@@ -1,4 +1,4 @@
-package springboot.demo.IOCandDependencyInjection.myApp.components;
+package springboot.demo.myApp.IOCandDependencyInjection.components;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

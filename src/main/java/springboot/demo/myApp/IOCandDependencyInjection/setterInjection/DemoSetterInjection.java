@@ -1,10 +1,10 @@
-package springboot.demo.IOCandDependencyInjection.myApp.setterInjection;
+package springboot.demo.myApp.IOCandDependencyInjection.setterInjection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springboot.demo.IOCandDependencyInjection.myApp.components.Coach;
+import springboot.demo.myApp.IOCandDependencyInjection.components.Coach;
 
 @RestController
 public class DemoSetterInjection {

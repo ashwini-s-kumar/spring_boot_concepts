@@ -1,13 +1,10 @@
-package springboot.demo.IOCandDependencyInjection.myApp;
+package springboot.demo.myApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(
-		scanBasePackages = {"springboot.demo.IOCandDependencyInjection.myApp",
-				"springboot.demo.IOCandDependencyInjection.componentScanning"
-		}
-)
+@SpringBootApplication(scanBasePackages = {"springboot.demo.componentScanning",
+		"springboot.demo.myApp"})
 public class MyAppApplication {
 
 	public static void main(String[] args) {

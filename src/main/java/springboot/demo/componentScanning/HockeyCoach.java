@@ -1,4 +1,4 @@
-package springboot.demo.IOCandDependencyInjection.componentScanning;
+package springboot.demo.componentScanning;
 
 import org.springframework.stereotype.Component;
 

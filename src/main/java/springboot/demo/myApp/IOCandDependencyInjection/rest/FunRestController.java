@@ -1,4 +1,4 @@
-package springboot.demo.IOCandDependencyInjection.myApp.rest;
+package springboot.demo.myApp.IOCandDependencyInjection.rest;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

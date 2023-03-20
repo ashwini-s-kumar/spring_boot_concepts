@@ -1,4 +1,4 @@
-package springboot.demo.IOCandDependencyInjection.myApp.components;
+package springboot.demo.myApp.IOCandDependencyInjection.components;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
