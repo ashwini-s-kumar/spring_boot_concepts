@@ -1,4 +1,4 @@
-package springboot.demo.myApp.IOCandDependencyInjection.beanLifeCycle;
+package springboot.demo.myApp.iOCandDependencyInjection.beanLifeCycle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

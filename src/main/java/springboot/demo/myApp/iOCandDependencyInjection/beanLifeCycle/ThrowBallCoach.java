@@ -1,9 +1,9 @@
-package springboot.demo.myApp.IOCandDependencyInjection.beanLifeCycle;
+package springboot.demo.myApp.iOCandDependencyInjection.beanLifeCycle;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.springframework.stereotype.Component;
-import springboot.demo.myApp.IOCandDependencyInjection.components.Coach;
+import springboot.demo.myApp.iOCandDependencyInjection.components.Coach;
 
 @Component
 public class ThrowBallCoach implements Coach {
