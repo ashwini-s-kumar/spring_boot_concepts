@@ -21,11 +21,13 @@ public class EmployeeRestController {
         this.employeeService = employeeService;
     }
 
+    //roles - ALL
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){
         return employeeService.findAll();
     }
 
+    //roles - ALL
     @GetMapping("/employees/{employeeId}")
     public Employee getEmployee(@PathVariable int employeeId){
         Employee employee = employeeService.findById(employeeId);
@@ -35,6 +37,7 @@ public class EmployeeRestController {
         return employee;
     }
 
+    //roles - MANAGER
     @PostMapping("/employees")
     public Employee addEmployee(@RequestBody Employee employee){
         employee.setId(0);
@@ -42,12 +45,14 @@ public class EmployeeRestController {
         return dbEmployee;
     }
 
+    //roles - MANAGER
     @PutMapping("/employees")
     public Employee updateEmployee(@RequestBody Employee employee){
         Employee dbEmployee = employeeService.save(employee);
         return dbEmployee;
     }
 
+    //roles - ADMIN
     @DeleteMapping("/employees/{employeeId}")
     public String deleteEmployee(@PathVariable int employeeId){
         Employee employee = employeeService.findById(employeeId);
